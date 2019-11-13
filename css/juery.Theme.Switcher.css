@@ -1,0 +1,205 @@
+
+html{
+    background-color:white;
+}
+.box{  
+   margin:0 70px;   
+}
+.unbox {  
+   margin:0; 
+}
+.fixed{
+  position:fixed;
+    top:0;
+}
+body{
+    margin:0;
+    padding:0; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;        
+}
+.Skin-Switcher {
+    width: 270px;
+    min-height:200px;
+    position: fixed;      
+    top: 130px;
+    padding: 0px; 
+    font-family: sans-serif;
+    font-size: 16px;      
+    z-index:96800;  
+}
+.BG_IMG{
+    clear:both;
+    margin:15px 0px 0px 0px;    
+}
+.BG_IMG img{
+    width:30px;
+    height:30px;
+    margin:0px 3px;
+    border-radius:30px;
+}
+#g94gnn30n{
+    font-size:8px;        
+}
+.Switcher-text{transition:all 1s ease-in-out}
+.Switcher{transition:all 0.5s ease-in-out}
+.Skin-Changer {
+    width: 210px;
+    float: right;
+    height: auto;
+    padding: 5px;
+    background-color: #c3c3c3;
+    left: 1px;
+    position: relative;
+    border-bottom: 1px solid #9E9E9E;
+    border-left: 1px solid #9E9E9E;
+    border-top: 1px solid #9E9E9E;
+}
+.mc4840m8cm4 {
+    width: 100%;
+    height: 30px;
+    padding: 0px 0px 0px 12px;     
+    text-align: left;              
+}
+.mc4840m8cm4 strong{
+    float:left;
+}
+.mc4840m8cm4 div{
+    float:left;
+}
+.Skin-icon{
+    width:45px;
+    height:45px;        
+    background-color:black;       
+    float:right;  
+    left:2px;
+    border-top:1px solid #9E9E9E;
+    border-bottom:1px solid #9E9E9E;
+    border-left:1px solid #9E9E9E;
+    position:relative;                
+}
+.Skin-icon img{
+        margin: 11px;
+        width: 50%;
+        height: 50%;       
+    }
+.d0348889 {
+    padding: 3px;
+    clear:both;
+    text-align: left;
+    margin: 0px 0px 5px 10px; 
+       
+}
+#switcher li,#switcher2 li {
+    transition:all 1s ease;
+    border-radius: 30px;
+    list-style: none;
+    margin: 0px 12px 10px 0px;
+    width: 20px;
+    height: 20px;
+    float: left;    
+}
+#switcher li,#switcher2 li:hover{
+    cursor:pointer;
+}
+.g409utj09j3tj{
+    width:100%;
+    height:50px;
+}
+#switcher {
+    margin-top:0px;
+    margin-bottom:25px;    
+    padding: 12px;
+    max-height:30px;
+    min-height:0px;
+    width: 100%;    
+}
+.clearfix:after {
+clear:both;
+}
+.switch_section{
+    width:100%;
+    height:auto;
+    list-style:none;
+    font-size:1.1em;
+    margin:0 auto;
+    padding:10px 0px 0px 15px;
+}
+.switch_section li{
+    width:100%;
+    height:30px;
+}
+#switcher2 {
+    margin-top:0px;
+    padding: 12px 0px 0px 12px;
+    width: 100%;
+    height: 20px;
+}
+/*switcher*/
+.onoffswitch {
+    position: relative; width: 30px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+   left:140px;
+   top:-18px;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    height: 15px; padding: 0; line-height: 15px;
+    border: 2px solid #CCCCCC; border-radius: 15px;
+    background-color: #FFFFFF;
+    transition: background-color 0.3s ease-in;
+}
+.onoffswitch-label:before {
+    content: "";
+    display: block; width: 15px; margin: 0px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 13px;
+    border: 2px solid #CCCCCC; border-radius: 15px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label {
+    background-color: #49E845;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label, .onoffswitch-checkbox:checked + .onoffswitch-label:before {
+   border-color: #49E845;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label:before {
+    right: 0px; 
+}
+
+    /*responsiv media query*/
+@media screen and (max-width: 320px), (min-device-width: 320px) and (max-device-width: 480px) and (orientation : portrait) {
+    /* CSS */
+}
+@media screen and (min-width: 320px) and (max-width: 480px), (min-device-width: 320px) and (max-device-width: 480px) and (orientation : landscape) {
+    /* CSS */
+}
+@media screen and (max-width: 320px), (min-device-width: 320px) and (max-device-width: 568px) and (orientation : portrait) {
+/* CSS */ 
+}
+@media screen and (min-width: 320px) and (max-width: 568px), (min-device-width: 320px) and (max-device-width: 568px) and (orientation : landscape) {
+/* CSS */ 
+}
+@media screen and (max-width: 360px), (min-device-width: 360px) and (max-device-width: 640px) and (orientation : portrait) {
+/* CSS */ 
+}
+@media screen and (min-width: 360px) and (max-width: 640px), (min-device-width: 360px) and (max-device-width: 640px) and (orientation : landscape) {
+/* CSS */ 
+}
+@media screen and (max-width: 600px), (min-device-width: 600px) and (max-device-width: 960px) and (orientation : portrait) {
+/* CSS */ 
+}
+@media screen and (min-width: 600px) and (max-width: 960px), (min-device-width: 600px) and (max-device-width: 960px) and (orientation : landscape) {
+/* CSS */ 
+}
+@media screen and (max-width: 768px), (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : portrait) {
+/* CSS */ 
+}
+@media screen and (min-width: 768px) and (max-width: 1024px), (min-device-width: 768px) and (max-device-width: 1024px) and (orientation : landscape) {
+/* CSS */ 
+}
